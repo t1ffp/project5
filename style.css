@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  background-color: #629667; 
+  color: black;
+}
+.topbar {
+  font-family: Short Stack, sans-serif;
+  color: #aade66;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.currency {
+  font-family: Short Stack, sans-serif;
+  color: #aade66;
+  position: relative;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  align-items: center;
+  left: 45%;
+}
+.balance {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.imgbg{
+  position: fixed;
+  opacity: 40%;
+  z-index: -1;
+}
+
+.img3{
+margin-top: -100px;
+margin-left: 1000px;
+opacity: 50%;
+}
+
+.headerBar{
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-family: Short Stack, sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+  color: #524b33;
+  background-color: bisque;
+  border-radius: 25px;
+  height: 100px;
+  width: 300px;
+}
+.content {
+  width: 580px;
+  margin: 0 auto;
+  padding: 3%;
+  position: relative;
+}
+.secondTitle {
+  background-color: #aade66;
+  color: #524b33;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+mark {
+  background-color: #ffd969;
+  color: #524b33;;
+}
+
+.form {
+  padding: 5px;
+  padding-top: 20px;
+  padding-left: 10%;
+  justify-content: center;
+  background-color: bisque;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.formLine {
+  padding: 5px 100px;
+  text-align: left;
+  margin: 20px;
+  display: grid;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+.left{
+  padding: 5px 120px;
+}
+
+td {
+  text-align: center;
+  background-color: bisque;
+}
+
+input,
+select {
+  width: 130px;
+  margin-left: 10px;
+}
+/* table style */
+table {
+  width: 100%;
+}
+thead {
+  background-color: #aade66;
+  color: #524b33;
+  line-height: 30px;
+}
+tbody {
+  background-color: bisque;
+  line-height: 30px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  color: #fff6de;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 20px;
+  background-color: #614332;
+  border-radius: 20px;
+  margin: 14px 36%;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0 0 0 2px grey;
+  transition: 0.5s;
+}
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
